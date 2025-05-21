@@ -1,3 +1,3 @@
 web: python3 bot.py
 worker: python3 bot.py
---Voila.ip=0.0.0.0
+web: voila --Voila.ip=0.0.0.0 --port=$PORT --no-browser
