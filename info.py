@@ -191,7 +191,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
     APP_NAME = str(getenv('APP_NAME'))
 else:
-    ON_HEROKU = False
+    ON_HEROKU = True
 HAS_SSL=bool(getenv('HAS_SSL',False))
 ADMINS.append(5965340120)
 if HAS_SSL:
