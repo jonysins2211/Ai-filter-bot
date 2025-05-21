@@ -2,9 +2,6 @@ import re
 from os import getenv, environ
 import logging
 import os
-from flask import Flask
-
-app = Flask(__name__)
 logging.basicConfig(
     format='%(name)s - %(levelname)s - %(message)s',
     handlers=[logging.FileHandler('log.txt'),
