@@ -68,11 +68,11 @@ async def start(client, message):
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],
                     [
-                    InlineKeyboardButton('🍿 ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/vj_botz'),
-                    InlineKeyboardButton('🤖 ʙᴏᴛs', url=f'https://t.me/vj_bots')
+                    InlineKeyboardButton('🍿 ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/movie_loverzz'),
+                    InlineKeyboardButton('🤖 Dᴇᴀʟꜱ Cʜᴀɴɴᴇ', url=f'https://t.me/amazon_flipkartt_offers')
                     ],[
                     InlineKeyboardButton('🎬 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('❤️ ɢʀᴏᴜᴘ', url=f'https://t.me/+cBX3YJbHToU0ZjNl'),
+                    InlineKeyboardButton('❤️ ɢʀᴏᴜᴘ', url=f'https://t.me/+7hhFYFo61m5hNzU9'),
                     ],[
                     InlineKeyboardButton('☻︎ ʜᴇʟᴘ ᴜs ʙʏ ᴍᴀᴋɪɴɢ ᴀ ᴅᴏɴᴀᴛɪᴏɴ ☻︎', url=DONATION_LINK),
                     ]]
@@ -94,11 +94,11 @@ async def start(client, message):
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],
                     [
-                    InlineKeyboardButton('🍿 ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/vj_botz'),
-                    InlineKeyboardButton('🤖 ʙᴏᴛs', url=f'https://t.me/vj_bots')
+                    InlineKeyboardButton('🍿 ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/movie_loverzz'),
+                    InlineKeyboardButton('🤖 Dᴇᴀʟꜱ Cʜᴀɴɴᴇ', url=f'https://t.me/amazon_flipkartt_offers')
                     ],[
                     InlineKeyboardButton('🎬 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('❤️ ɢʀᴏᴜᴘ', url=f'https://t.me/+cBX3YJbHToU0ZjNl'),
+                    InlineKeyboardButton('❤️ ɢʀᴏᴜᴘ', url=f'https://t.me/+7hhFYFo61m5hNzU9'),
                     ],[
                     InlineKeyboardButton('☻︎ ʜᴇʟᴘ ᴜs ʙʏ ᴍᴀᴋɪɴɢ ᴀ ᴅᴏɴᴀᴛɪᴏɴ ☻︎', url=DONATION_LINK),
                     ]]
@@ -290,10 +290,10 @@ async def start(client, message):
                 sharelazymsg = f"{to_small_caps('•❤ Your favorite movies, just a tap away! ❤•')}\n{to_small_caps('🍿 Be the first to watch the latest movies! Join us now for unlimited entertainment!')}"
                 lazydeveloper_text = quote(sharelazymsg)
                 lazybtn = [[
-                        InlineKeyboardButton(to_small_caps(f"🔁 Share this file... 💕"), url=f"https://t.me/share/url?url={share_url}&text={lazydeveloper_text}")
+                        #InlineKeyboardButton(to_small_caps(f"🔁 Share this file... 💕"), url=f"https://t.me/share/url?url={share_url}&text={lazydeveloper_text}")
                     
                     ],[
-                        InlineKeyboardButton('😊 • ᴅᴏɴᴀᴛᴇ ᴜꜱ • ♥️', url=DONATION_LINK),
+                        #InlineKeyboardButton('😊 • ᴅᴏɴᴀᴛᴇ ᴜꜱ • ♥️', url=DONATION_LINK),
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -359,10 +359,10 @@ async def start(client, message):
                 sharelazymsg = f"{to_small_caps('•❤ Your favorite movies, just a tap away! ❤•')}\n{to_small_caps('🍿 Be the first to watch the latest movies! Join us now for unlimited entertainment!')}"
                 lazydeveloper_text = quote(sharelazymsg)
                 button = [[
-                        InlineKeyboardButton(to_small_caps('🔄 Share with friends... 💕'), url=f"https://t.me/share/url?url={share_url}&text={lazydeveloper_text}")
+                        #InlineKeyboardButton(to_small_caps('🔄 Share with friends... 💕'), url=f"https://t.me/share/url?url={share_url}&text={lazydeveloper_text}")
                     
                     ],[
-                        InlineKeyboardButton('😊 • ᴅᴏɴᴀᴛᴇ ᴜꜱ • ♥️', url=DONATION_LINK),
+                        #InlineKeyboardButton('😊 • ᴅᴏɴᴀᴛᴇ ᴜꜱ • ♥️', url=DONATION_LINK),
                     ]]                # Create the inline keyboard markup with the button
                 keyboard = InlineKeyboardMarkup(button)
                 msg = await client.send_cached_media(
@@ -413,10 +413,10 @@ async def start(client, message):
         sharelazymsg = f"{to_small_caps('•❤ Access file at your fingertip ❤•')}\n{to_small_caps('🤝 Join us now for the latest movies and entertainment!')}"
         lazydeveloper_text = quote(sharelazymsg)
         button = [[
-                InlineKeyboardButton(to_small_caps('🔄 Share with friends... 💕'), url=f"https://t.me/share/url?url={share_url}&text={lazydeveloper_text}")
+               # InlineKeyboardButton(to_small_caps('🔄 Share with friends... 💕'), url=f"https://t.me/share/url?url={share_url}&text={lazydeveloper_text}")
             
             ],[
-                InlineKeyboardButton('😊 • ᴅᴏɴᴀᴛᴇ ᴜꜱ • ♥️', url=DONATION_LINK),
+                #InlineKeyboardButton('😊 • ᴅᴏɴᴀᴛᴇ ᴜꜱ • ♥️', url=DONATION_LINK),
             ]]
         # Create the inline keyboard markup with the button
         keyboard = InlineKeyboardMarkup(button)
