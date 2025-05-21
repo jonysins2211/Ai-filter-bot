@@ -143,7 +143,7 @@ CAPTION_BUTTON_URL = "https://t.me/Movie_Loverzz"
 # SENSITIVE VARS
 LAZYCONTAINER = {}  #DON'T TOUCH THIS VAR !
 LOGGER = logging
-PORT = int(environ.get('PORT', 8030))
+PORT = int(environ.get('PORT', 8080))
 
 LOG_STR = "🚀Current Cusomized Configurations are:-\n"
 LOG_STR += ("𓆩ཫ⚙ཀ𓆪 IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
