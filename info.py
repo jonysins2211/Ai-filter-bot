@@ -34,7 +34,7 @@ PICS = (environ.get('PICS', 'https://graph.org/file/a319f6b9ce3b993c6e22f.jpg'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '949657126').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001176901973').split()]
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '1001622914589').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1001622914589').split()]
 
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tonymawa:xKZnH1Kpxs1g5XkC@cluster0.5sd3s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
